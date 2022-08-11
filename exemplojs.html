@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <h3>Olá Mundo em Javascript</h3>
+        <p id="olamundo">A mágica está prestes a acontecer</p>
+        
+        <button type="button" onclick="document.getElementById('olamundo').innerHTML = 'Olá Mundo'">Clique aqui</button>
+        <button type="button" onclick="document.getElementById('olamundo').style.backgroundColor = 'yellow'">Mudar BG</button>
+        <button type="button" onclick="trocarTexto()">Trocar texto</button>
+        
+        <hr>
+
+        <p id="p1">Parágrafo 1 - Texto do parágrafo 1</p>
+        <p id="p2" onmouseover="alterar()" onmouseout="reverter()">aqui não tem nada</p>
+    
+        <hr>
+        <form>
+            N1: <input type="number" id="n1"><br>
+            N2: <input type="number" id="n2"><br>
+            <button type="button" onclick="somar()">Somar</button><br>
+            Resultado: <input type="number" id="resultado">
+        </form>
+    
+        <hr>
+        <h2>Qual o feitiço para acender a luz?</h2>
+        <input type="text" id="resposta"><br>
+        <button type="button" onclick="corrigir()">Responder</button>
+
+        <script src="meuscript.js"></script>
+    
+    
+    </body>
+</html>
