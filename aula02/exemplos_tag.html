@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .exemplo{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 onclick="exibirDados()" onmouseover="mudarCor()">Lista de Disciplinas da Licenciatura</h2>
+        <p class="oculto">Pensamento Computacional</p>
+        <p>Fundamentos de Programação</p>
+        <p class="oculto">Programação Orientada a Objeto</p>
+        <p>Estrutura de Dados</p>
+        <p>Banco de Dados</p>
+        <input type='button' onclick='ocultarObjetos()' value="Esconder">
+        <input type='button' onclick='mostrarObjetos()' value="Aparecer">
+        
+        <hr>
+        <h2 onclick='listaOrdenada()'>Lista de compras</h2>
+        <ul>
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Macarrão</li>
+        </ul>
+        <input type="text" id="itemLista">
+        <input type="button" onclick="adicionar()" value="Add">
+
+        <h2 onclick="listaNaoOrdenada()">Ranking dos times</h2>
+        <ol>
+            <li id="primeiro">Palmeiras</li>
+            <li>Flamengo</li>
+            <li>Corinthians</li>
+        </ol>
+        <script src="meuscript.js"></script>
+
+    </body>
+</html>
